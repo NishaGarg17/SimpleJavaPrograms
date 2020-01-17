@@ -4,6 +4,7 @@ public class ArmstrongNumber {
 
 	public static void main(String[] args) {
 		int n;
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the input: ");
 		n = sc.nextInt();
@@ -21,5 +22,5 @@ public class ArmstrongNumber {
 			System.out.println("Given Number: " + n + " is not a Armstrong Number");
 		}
 	}
-
+	
 }
